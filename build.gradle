@@ -1,0 +1,55 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+group = project.maven_group
+version = project.mod_version
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    copyIdeResources = true
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            mods {
+                frontier_realms {
+                    source sourceSets.main
+                }
+            }
+        }
+        client {}
+        server {}
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${loader_version}"
+}
+
+jar {
+    manifest {
+        attributes([
+            'Specification-Title': project.archives_base_name,
+            'Specification-Version': '1',
+            'Implementation-Title': project.name,
+            'Implementation-Version': project.version
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')

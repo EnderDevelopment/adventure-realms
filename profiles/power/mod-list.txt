@@ -1,0 +1,37 @@
+# Power profile
+
+## Recommended mod set
+
+Required and gameplay:
+
+- Timeless and Classics Zero (TACZ), including the official attachment and content packs compatible with the selected TACZ release.
+- Alex's Caves.
+- L_Ender's Cataclysm.
+- The Twilight Forest.
+- Blue Skies.
+- YUNG's Better Dungeons, Mineshafts, Strongholds, and compatible structure add-ons.
+- When Dungeons Arise.
+- Tectonic.
+- Terralith, with the required compatibility library for the selected release.
+- Farmer's Delight and its compatible addon set.
+- PlayerEx or a comparable progression mod, only if its release matches the final content selection.
+- Wall-Jump or a Forge 1.20.1 parkour/movement project selected from its official page.
+
+Optimization and rendering:
+
+- Embeddium.
+- Oculus.
+- ModernFix.
+- FerriteCore.
+- Entity Culling.
+- ImmediatelyFast.
+- Clumps.
+- Memory Leak Fix, if its Forge 1.20.1 release is available for the instance.
+
+Atmosphere:
+
+- Sound Physics Remastered, enabled for Power.
+- AmbientSounds, with its required library if the selected release requires one.
+- Effective, only when the GPU has headroom.
+
+Use one release of each project and resolve dependency warnings in the launcher before adding optional addons.

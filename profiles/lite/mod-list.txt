@@ -1,0 +1,31 @@
+# Lite profile
+
+## Recommended mod set
+
+Required and gameplay:
+
+- Timeless and Classics Zero (TACZ), Forge 1.20.1 release, with only the required official content and attachment packs.
+- L_Ender's Cataclysm.
+- The Twilight Forest.
+- YUNG's Better Dungeons and Better Mineshafts, plus their required library.
+- Tectonic and one compatible biome or terrain project; avoid stacking several overlapping world-generation overhauls.
+- Farmer's Delight, if desired.
+- One lightweight Forge 1.20.1 parkour or movement mod from its official project page.
+
+Optimization and rendering:
+
+- Embeddium.
+- Oculus only if shaders are wanted; remove it if the graphics card struggles.
+- ModernFix.
+- FerriteCore.
+- Entity Culling.
+- ImmediatelyFast.
+- Clumps.
+
+Optional and disabled by default:
+
+- Sound Physics Remastered: omit from Lite for lowest overhead. If included, lower its processing quality and distance.
+- AmbientSounds and Effective: omit on very weak systems.
+- Large structure and extra dimension mods: add selectively, as they increase world-generation and memory costs.
+
+Check each project's official page for dependencies and its exact Forge 1.20.1 file. Do not install Fabric-only alternatives.

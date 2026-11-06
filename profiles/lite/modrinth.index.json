@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "game": "minecraft",
+  "versionId": "1.0.0-lite",
+  "name": "Frontier Realms - Lite",
+  "summary": "Forge 1.20.1 exploration and firearms pack tuned for low-end systems.",
+  "files": [],
+  "dependencies": {
+    "minecraft": "1.20.1",
+    "forge": "47.3.0"
+  }
+}

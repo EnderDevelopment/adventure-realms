@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.3.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Frontier Realms - Lite",
+  "version": "1.0.0",
+  "author": "Frontier Realms",
+  "files": [],
+  "overrides": "overrides"
+}
